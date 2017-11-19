@@ -19,6 +19,7 @@ import ReactDom from 'react-dom';
 
 
 import { Routes } from './config';
-import { Landing } from './scenes';
+import { Landing, authScenes } from './scenes';
 
 ReactDom.render(<Landing />, document.getElementById('app'));
+ReactDom.render(<authScenes.Login />, document.getElementById('devconfig'));
